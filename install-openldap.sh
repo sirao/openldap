@@ -60,4 +60,4 @@ kubectl create secret generic -n openldap certs --from-file=ldap.pem --from-file
 # Create OpenLDAP deployment
 kubectl apply -f openldap-one-OU.yaml
 
-echo "Done deploying OpenLDAP in namespace 'openldap'
+echo "Done deploying OpenLDAP in namespace 'openldap'"
